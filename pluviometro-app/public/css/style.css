@@ -1,0 +1,39 @@
+body{
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main main main'
+      'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+header{
+
+  
+    background-color: aqua;
+    grid-area: header;
+
+}
+
+main{
+
+    background-color: blue;
+    grid-area: main;
+
+}
+
+.menu{
+
+    background-color: crimson;
+    grid-area: menu;
+}
+
+footer{
+
+
+        background-color: chocolate;
+        grid-area: footer;
+}
+
